@@ -1,28 +1,142 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
+# =========================
+
+# Visual Studio 2022 / .NET
+
+# =========================
+
+## Archivos de usuario
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Carpetas de compilación
+
+bin/
+obj/
+out/
+
+## Visual Studio
+
+.vs/
+
+## Logs y temporales
+
+*.log
+*.cache
+*.ilk
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+.builds
+
+## ReSharper / Rider
+
+_ReSharper*/
+*.DotSettings.user
+
+## NuGet
+
+*.nupkg
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+## Publicación
+
+publish/
+
+## IIS Express
+
+iisexpress/
+
+## Configuración local sensible
+
+appsettings.Development.json
+appsettings.Local.json
+
+## Base de datos local
+
+*.mdf
+*.ldf
+
+## Azure
+
+*.azurePubxml
+
+## Test / cobertura
+
+TestResults/
+*.coverage
+*.coveragexml
+
+# =========================
+
+# Angular / Node
+
+# =========================
+
+## Dependencias
+
+node_modules/
+
+## Build Angular
+
+dist/
 .angular/
+.tmp/
+out-tsc/
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+## Archivos de entorno locales
 
-# Environment files
-/.env
+src/environments/environment*.ts
+!src/environments/environment.ts
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+## Logs Node
 
-# TypeScript cache
-*.tsbuildinfo
-
-# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+## Cache
+
+.cache/
+.parcel-cache/
+
+## IDE frontend
+
+.vscode/
+.idea/
+
+## Archivos temporales
+
+*.tsbuildinfo
+
+# =========================
+
+# Generales
+
+# =========================
+
+## OS
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Otros
+
+*.swp
+*.bak
+*.orig
