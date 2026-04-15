@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Techsoft.Sima.Web.Api/Techsoft.Sima.Web.Api.csproj" />
+  <Project Path="Techsoft.Sima.Web.Application/Techsoft.Sima.Web.Application.csproj" />
+  <Project Path="Techsoft.Sima.Web.Domain/Techsoft.Sima.Web.Domain.csproj" />
+  <Project Path="Techsoft.Sima.Web.Infrastructure/Techsoft.Sima.Web.Infrastructure.csproj" />
+  <Project Path="Techsoft.Sima.Web.Shared/Techsoft.Sima.Web.Shared.csproj" />
+  <Project Path="Techsoft.Sima.Web.Test/Techsoft.Sima.Web.Test.csproj" />
+</Solution>

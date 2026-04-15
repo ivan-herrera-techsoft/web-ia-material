@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet:*)",
+      "Bash(git:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": []
+  }
+}

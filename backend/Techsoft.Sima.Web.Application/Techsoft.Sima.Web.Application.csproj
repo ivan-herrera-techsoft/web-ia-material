@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Techsoft.Sima.Web.Domain\Techsoft.Sima.Web.Domain.csproj" />
+    <ProjectReference Include="..\Techsoft.Sima.Web.Shared\Techsoft.Sima.Web.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="10.0.7" />
+    <PackageReference Include="Mapster.Core" Version="10.0.7" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
